@@ -1,0 +1,57 @@
+body {
+    background-color: whitesmoke !important;
+}
+
+.exported-note {
+    margin: 0em 6em;
+    font-family: "Helvetica Neue",
+        Arial,
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;
+    font-size: large;
+}
+
+p {
+    padding: 0.3em;
+}
+
+h2 {
+    margin-top: 4em;
+}
+
+h2:first-letter {
+    font-size: 120%;
+    color: #7172ac;
+}
+
+h3 {
+    position: relative;
+    padding: 0.25em 0;
+}
+
+h3:after {
+    content: "";
+    display: block;
+    height: 4px;
+    background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
+    background: linear-gradient(to right, rgb(230, 90, 90), transparent);
+}
+
+blockquote {
+    color: black;
+}
+
+.table-of-contents {
+    margin-bottom: 3em;
+}
+
+details {
+    background-color: ivory;
+    margin: 0em 1em;
+}
+
+summary {
+    background-color: whitesmoke;
+}
