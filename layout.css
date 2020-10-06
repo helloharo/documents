@@ -47,6 +47,10 @@ blockquote {
     margin-bottom: 3em;
 }
 
+div.jop-noMdConv {
+    margin: 0em 1em;
+}
+
 details {
     background-color: ivory;
     margin: 0em 1em;
@@ -55,3 +59,4 @@ details {
 summary {
     background-color: whitesmoke;
 }
+
